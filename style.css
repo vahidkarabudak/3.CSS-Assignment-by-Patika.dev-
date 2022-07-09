@@ -1,0 +1,149 @@
+.nav-right{
+    float: right;
+    margin: 15px;
+    list-style-type: none;
+}
+.nav-right li{
+    display: inline-block;
+}
+.nav a{
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav-App-Icon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.nav-App-Icon:hover{
+    opacity: 1;
+}
+.pp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.nav::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.s-logo-google{
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 0px auto;
+}
+.s-search-bar{
+    border: 1px solid lightgray;
+    width: 560px;
+    height: 44px;
+    border-radius: 25px;
+    margin: 28px auto;
+}
+.s-search-bar:hover{
+    box-shadow: 0.7px 0.7px 0.7px lightgray;
+}
+.s-search-icon{
+    height: 22px;
+    border: none;
+    position: relative; 
+    left: 11px;
+    top: 11px;
+    outline: none;
+    border: none;
+}
+.s-search-input{
+    width: 480px;
+    height: 22px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    border: none;
+    top: 5.5px;
+    font-size: 22px;
+}
+.s-voice{
+    height: 22px;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative;
+    top: 11px;
+    border: none;
+}
+.s-btn{
+    text-align: center;
+}
+.s-btnsub{
+    height: 36px;
+    width: 140px;
+    margin: 10px 10px;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.s-btn button:hover{
+    background-color: lightgray;
+    box-shadow: 0.7px 0.7px 0.7px lightgray;
+}
+.s-lang{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+}
+.s-lang a{
+    text-decoration: none;
+    color: blue;
+}
+.s-lang a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-1{
+    margin-left: 40px;
+    color: #5f6368;
+    border-bottom: 1px solid #e4e4e4;
+}
+.footer-list-1{
+    list-style-type: none;
+    float: left;
+}
+.footer-list-1 li{
+    display: inline;
+    margin-right: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: #5f6368;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-list-2{
+    list-style-type: none;
+    float: right;
+}
+.footer-list-2 li{
+    display: inline;
+    margin-right: 30px;
+}
